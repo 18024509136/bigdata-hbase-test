@@ -1,10 +1,10 @@
-##作业内容##
+## 作业内容 ##
 - 在huangxiaodi命名空间下创建一张名为student的表，如果表已经存在则先删除
 - student表包含info和score两列簇，info有name、student_id、class三列，score有understanding、programming两列
 - 往student的表插入数据，并根据rowKey查询行
 - 根据rowKey删除当行数据
 
-##代码##
+## 代码 ##
 ```java
 package com.geek;
 
@@ -292,12 +292,10 @@ public class HbaseTest {
 }
 
 ```
-
-##运行结果##
-###代码运行结果###
+### 代码运行结果 ###
 ![image](https://github.com/18024509136/bigdata-hbase-test/blob/master/img/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
 
-###hbase shell结果###
+### hbase shell结果 ###
 ![image](https://github.com/18024509136/bigdata-hbase-test/blob/master/img/list_namespace.png)   
 ![image](https://github.com/18024509136/bigdata-hbase-test/blob/master/img/list.png)   
 ![image](https://github.com/18024509136/bigdata-hbase-test/blob/master/img/scan.png)
